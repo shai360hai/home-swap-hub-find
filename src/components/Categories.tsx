@@ -2,7 +2,7 @@
 import React from 'react';
 import { Button } from "@/components/ui/button";
 import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { Car, Home, Tag, User, Image, Category, Bookmark, Phone } from "lucide-react";
+import { Car, Home, Tag, User, Image, LayoutGrid, Bookmark, Phone } from "lucide-react";
 
 const categories = [
   { name: "Real Estate", icon: Home },
@@ -12,7 +12,7 @@ const categories = [
   { name: "Jobs", icon: User },
   { name: "Services", icon: Tag },
   { name: "Fashion", icon: Bookmark },
-  { name: "More", icon: Category },
+  { name: "More", icon: LayoutGrid },
 ];
 
 const Categories = () => {
